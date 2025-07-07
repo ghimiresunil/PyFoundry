@@ -130,8 +130,7 @@ Usage
    - Set **Source** to `Branch: gh-pages`
    - Click **Save**
    - Your docs should now be live at:
-
-    https://ghimiresunil.github.io/PyFoundry/
+     - Available at: https://ghimiresunil.github.io/PyFoundry/
 
 Additional Resources
 ====================
