@@ -135,17 +135,17 @@ Contribute or Follow Along
 
 PyFoundry is evolving. Star the repository, follow development, or contribute by submitting issues and pull requests!
 
-.. _editorconfig: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/initialization/editorconfig.rst
-.. _ruff: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/initialization/ruff.rst
-.. _mypy: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/initialization/mypy.rst
-.. _pre-commit: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/initialization/pre-commit.rst
-.. _dynaconf: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/initialization/pre-commit.rst
-.. _fire: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/setup/fire.rst
-.. _logging: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/setup/logging.rst
-.. _pytest: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/setup/pytest.rst
-.. _coverage: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/setup/coverage.rst
-.. _pytest-cov: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/setup/pytest-cov.rst
-.. _tox: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/setup/tox.rst
-.. _sphinx: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/deployment/sphinx.rst
-.. _gh-actions:  https://github.com/ghimiresunil/PyFoundry/blob/main/docs/deployment/gh-actions.rst
-.. _gh-pages: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/deployment/gh-pages.rst
+.. _editorconfig: https://ghimiresunil.github.io/PyFoundry/initialization/editorconfig.html
+.. _ruff: https://ghimiresunil.github.io/PyFoundry/initialization/ruff.html
+.. _mypy: https://ghimiresunil.github.io/PyFoundry/initialization/mypy.html
+.. _pre-commit: https://ghimiresunil.github.io/PyFoundry/initialization/pre-commit.html
+.. _dynaconf: https://ghimiresunil.github.io/PyFoundry/setup/dynaconf.html
+.. _fire: https://ghimiresunil.github.io/PyFoundry/setup/fire.html
+.. _logging: https://ghimiresunil.github.io/PyFoundry/setup/logging.html
+.. _pytest: https://ghimiresunil.github.io/PyFoundry/setup/pytest.html
+.. _coverage: https://ghimiresunil.github.io/PyFoundry/setup/coverage.html
+.. _pytest-cov: https://ghimiresunil.github.io/PyFoundry/setup/pytest-cov.html
+.. _tox: https://ghimiresunil.github.io/PyFoundry/setup/tox.html
+.. _sphinx: https://ghimiresunil.github.io/PyFoundry/deployment/sphinx.html
+.. _gh-actions: https://ghimiresunil.github.io/PyFoundry/deployment/gh-actions.html
+.. _gh-pages: https://ghimiresunil.github.io/PyFoundry/deployment/gh-pages.html
