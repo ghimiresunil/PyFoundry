@@ -53,6 +53,7 @@ Build docs with Sphinx, automate with GitHub Actions, and publish on GitHub Page
 
 - `sphinx`_ — For generating structured project documentation.
 - `gh-actions`_ — To automate documentation builds and deployment on every push or pull request, using a CI/CD pipeline.
+- `gh-pages`_ — Deploy documentation or project pages directly from the main branch using Sphinx.
 
 Getting Started with uv
 ----------------------------
@@ -127,7 +128,7 @@ Coming Soon
 
 Planned future integrations:
 
-- **GitHub Pages** — Deploy documentation or project pages directly from the repository.
+- **PyPI Release** — Prepare to publish the package to PyPI.
 
 Contribute or Follow Along
 -----------------------------
