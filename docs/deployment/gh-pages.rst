@@ -131,6 +131,7 @@ Usage
    - Click **Save**
    - Your docs should now be live at:
 
+    https://ghimiresunil.github.io/PyFoundry/
 
 Additional Resources
 ====================
