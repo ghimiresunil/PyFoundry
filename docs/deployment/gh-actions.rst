@@ -141,6 +141,8 @@ Usage
 4. Create a pull request from a feature branch to ``main`` and observe CI in action.
 5. Push directly to ``main`` to validate production-readiness.
 
+    https://ghimiresunil.github.io/PyFoundry/
+
 Additional Resources
 ====================
 
