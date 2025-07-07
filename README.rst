@@ -148,3 +148,4 @@ PyFoundry is evolving. Star the repository, follow development, or contribute by
 .. _tox: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/setup/tox.rst
 .. _sphinx: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/deployment/sphinx.rst
 .. _gh-actions:  https://github.com/ghimiresunil/PyFoundry/blob/main/docs/deployment/gh-actions.rst
+.. _gh-pages: https://github.com/ghimiresunil/PyFoundry/blob/main/docs/deployment/gh-pages.rst
