@@ -131,7 +131,6 @@ Usage
    - Click **Save**
    - Your docs should now be live at:
 
-     https://sp-95.github.io/python-lifecycle-training
 
 Additional Resources
 ====================
