@@ -43,6 +43,16 @@ We have to execute quite a number of commands to generate the docs. To make this
     .PHONY: help docs
     .DEFAULT_GOAL := help
 
+
+    define BROWSER_PYSCRIPT
+    import os, webbrowser, sys
+
+    from urllib.request import pathname2url
+
+    webbrowser.open("file://" + pathname2url(os.path.abspath(sys.argv[1])))
+    endef
+    export BROWSER_PYSCRIPT
+
     define PRINT_HELP_PYSCRIPT
     import re, sys
 
@@ -53,6 +63,8 @@ We have to execute quite a number of commands to generate the docs. To make this
             print("%-20s %s" % (target, help))
     endef
     export PRINT_HELP_PYSCRIPT
+
+    BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
     help:  ## Show this help message
         @python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
@@ -74,40 +86,37 @@ Add the following to `.github/workflows/docs.yml`:
     name: Documentation
 
     on:
-      push:
+    push:
         branches:
-          - main
+        - main
 
     jobs:
-      document:
+    document:
         runs-on: ubuntu-latest
 
         steps:
-          - uses: actions/checkout@v4
+        - uses: actions/checkout@v4
 
-          - name: install uv
-            uses: astral-sh/setup-uv@v5
-            with:
-              version: "0.7.9"
-
-          - name: Set up Python
+        - name: Set up Python
             uses: actions/setup-python@v5
             with:
-              python-version: "3.x"
+            python-version: "3.13"
 
-          - name: Install dependencies
-            run: uv add --dev sphinx-rtd-theme toml
+        - name: Install dependencies
+            run: |
+            python -m pip install --upgrade pip
+            pip install sphinx-rtd-theme toml
 
-          - name: Generate Docs
+        - name: Generate Docs
             run: make docs
 
-          - name: Deploy docs to GitHub Pages
+        - name: Deploy docs to GitHub Pages
             uses: peaceiris/actions-gh-pages@v4
             with:
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              publish_dir: docs/_build/html
-              allow_empty_commit: true
-              keep_files: true
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: docs/_build/html
+            allow_empty_commit: true
+            keep_files: true
 
 Usage
 =====
