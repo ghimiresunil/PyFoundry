@@ -2,8 +2,8 @@
 
 import warnings
 
-import src
-from src.decorators import log_execution, logger
+import pyfoundry
+from pyfoundry.decorators import log_execution, logger
 
 
 class TemperatureConverter:
@@ -31,7 +31,7 @@ class TemperatureConverter:
             logger.error(f"Invalid units: from='{from_unit}', to='{to_unit}'")
             raise ValueError("Invalid temperature unit")
 
-        if src.ENV == "prod" and ("K" in (from_unit, to_unit)):
+        if pyfoundry.ENV == "prod" and ("K" in (from_unit, to_unit)):
             warning_msg = "Kelvin conversions are experimental"
             logger.warning(warning_msg)
             warnings.warn(warning_msg, RuntimeWarning)

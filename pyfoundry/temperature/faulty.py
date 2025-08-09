@@ -1,8 +1,8 @@
 """Temperature Conversion Module with Intentional Errors for Testing."""
 
 from configs.config import settings
-from src.decorators import log_execution, logger
-from src.temperature.advanced import TemperatureConverter
+from pyfoundry.decorators import log_execution, logger
+from pyfoundry.temperature.advanced import TemperatureConverter
 
 
 class FaultyTemperatureConverter(TemperatureConverter):
