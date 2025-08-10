@@ -62,7 +62,7 @@ Import and use the logger across modules:
 
 .. code-block:: python
 
-    from src.decorators import logger, log_execution
+    from pyfoundry.decorators import logger, log_execution
 
     @log_execution
     def calculate_area(length, width):
@@ -83,7 +83,7 @@ To get the logger instance anywhere:
 
 .. code-block:: python
 
-    from src.decorators import logger
+    from pyfoundry.decorators import logger
 
     logger.warning("Something might be wrong")
 

@@ -37,7 +37,7 @@ Run `mypy` on your source files:
 
 .. code-block:: bash
 
-    mypy src/
+    mypy pyfoundry/
 
 Configuration
 -------------

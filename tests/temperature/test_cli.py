@@ -1,4 +1,4 @@
-from src.temperature._cli import Main
+from pyfoundry.temperature._cli import Main
 
 
 class TestMainCLI:

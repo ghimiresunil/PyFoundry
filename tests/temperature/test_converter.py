@@ -1,6 +1,6 @@
 import pytest
 
-from src.temperature import celsius_to_fahrenheit, fahrenheit_to_celsius
+from pyfoundry.temperature import celsius_to_fahrenheit, fahrenheit_to_celsius
 
 
 @pytest.mark.parametrize(

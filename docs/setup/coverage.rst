@@ -37,7 +37,7 @@ Configure Coverage in your `pyproject.toml`:
 
     [tool.coverage.run]
     branch = true
-    source = ["src"]
+    source = ["pyfoundry"]
 
     [tool.coverage.report]
     exclude_lines = [
@@ -57,7 +57,7 @@ Configure Coverage in your `pyproject.toml`:
 Explanation:
 
 - `branch = true`: Includes branch coverage
-- `source`: Directs Coverage to only measure code inside `src/`
+- `source`: Directs Coverage to only measure code inside `pyfoundry/`
 - `fail_under = 90`: Fails if total coverage is below 90%
 - `exclude_lines`: Skips specific patterns (e.g., debug or entrypoint code)
 

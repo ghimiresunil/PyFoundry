@@ -15,6 +15,6 @@ PyFoundry documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Modules
+   :caption: Miscellaneous
 
-   modules
+   miscellaneous

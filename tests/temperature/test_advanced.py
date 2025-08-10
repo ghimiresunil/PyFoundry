@@ -2,8 +2,8 @@ import warnings
 
 import pytest
 
-import src
-from src.temperature import TemperatureConverter
+import pyfoundry
+from pyfoundry.temperature import TemperatureConverter
 
 
 class TestTemperatureConverter:
@@ -38,7 +38,7 @@ class TestTemperatureConverter:
 
     @staticmethod
     def test_kelvin_warning_in_prod(monkeypatch):
-        monkeypatch.setattr(src, "ENV", "prod")
+        monkeypatch.setattr(pyfoundry, "ENV", "prod")
 
         with warnings.catch_warnings(record=True) as w:
             warnings.simplefilter("always")
@@ -52,7 +52,7 @@ class TestTemperatureConverter:
 
     @staticmethod
     def test_no_kelvin_warning_in_dev(monkeypatch):
-        monkeypatch.setattr(src, "ENV", "dev")
+        monkeypatch.setattr(pyfoundry, "ENV", "dev")
 
         with warnings.catch_warnings(record=True) as w:
             warnings.simplefilter("always")

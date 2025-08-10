@@ -2,8 +2,8 @@
 
 import fire
 
-from src.decorators import log_execution, logger
-from src.temperature import (
+from pyfoundry.decorators import log_execution, logger
+from pyfoundry.temperature import (
     FaultyTemperatureConverter,
     TemperatureConverter,
     celsius_to_fahrenheit,

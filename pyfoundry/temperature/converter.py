@@ -1,6 +1,6 @@
 """Temperature conversion functions between Celsius and Fahrenheit."""
 
-from src.decorators import log_execution, logger
+from pyfoundry.decorators import log_execution, logger
 
 
 @log_execution

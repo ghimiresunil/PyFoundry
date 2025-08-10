@@ -108,7 +108,7 @@ Generate documentation from source files:
 
 .. code-block:: console
 
-    $ sphinx-apidoc -o docs/ src
+    $ sphinx-apidoc -o docs/ pyfoundry
 
 Add the generated modules to `index.rst`:
 
@@ -125,7 +125,7 @@ Ignore generated `.rst` module files in Git:
 .. code-block::
 
     # Ignore module docs
-    src*.rst
+    pyfoundry*.rst
 
 Rebuild documentation:
 

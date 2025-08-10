@@ -28,8 +28,12 @@ help:  ## Show this help message
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
 docs:  ## generate Sphinx HTML documentation, including API docs
-	rm -f docs/src*.rst
-	sphinx-apidoc -o docs/ src
+	rm -f docs/pyfoundry*.rst
+	sphinx-apidoc -o docs/ pyfoundry
+	rm -f docs/pyfoundry.decorators.rst
+	rm -f docs/pyfoundry.cookiecutter.rst
+	rm -f docs/pyfoundry.temperature.rst
+	rm -f docs/pyfoundry.rst
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
