@@ -42,8 +42,8 @@ Set up an entry point in `pyproject.toml`:
 .. code-block:: toml
 
     [project.scripts]
-    temp-convert = "src.temperature.converter:main"
-    advance-convert = "src.temperature.advance_convert:main"
+    temp-convert = "pyfoundry.temperature.converter:main"
+    advance-convert = "pyfoundry.temperature.advance_convert:main"
 
 Install the package in editable mode:
 

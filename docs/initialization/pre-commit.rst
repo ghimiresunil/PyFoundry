@@ -63,7 +63,7 @@ Create a `.pre-commit-config.yaml` at your project root. Your current setup incl
   - `mypy`: Type checks excluding `docs/` and `tests/`
   - `debug-statements`: Blocks `breakpoint()` and `pdb`
   - `pydoclint`: Enforces Google-style docstrings
-  - `flake8`: Validates docstrings in `src/`
+  - `flake8`: Validates docstrings in `pyfoundry/`
 
 - **Git & Commit Message Hooks**:
   - `no-commit-to-branch`: Prevents direct commits to `main`/`master`

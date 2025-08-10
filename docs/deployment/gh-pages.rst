@@ -70,8 +70,8 @@ We have to execute quite a number of commands to generate the docs. To make this
         @python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
     docs:  ## generate Sphinx HTML documentation, including API docs
-        rm -f docs/src*.rst
-        sphinx-apidoc -o docs/ src
+        rm -f docs/pyfoundry*.rst
+        sphinx-apidoc -o docs/ pyfoundry
         $(MAKE) -C docs clean
         $(MAKE) -C docs html
         $(BROWSER) docs/_build/html/index.html
