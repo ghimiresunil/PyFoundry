@@ -1,25 +1,60 @@
+Changelog
 =========
-CHANGELOG
-=========
+
+All notable changes to **PyFoundry** are documented in this file.
+
+v0.1.7 (2025-07-17)
+-------------------
+
+- Improved documentation structure and build process.
+- Fixed Sphinx warnings in generated HTML.
+- Updated CI/CD workflow for PyPI trusted publishing.
+
+v0.1.6 (2025-07-15)
+-------------------
+
+- Enhanced build and packaging steps for cross-platform support.
+- Added GitHub Actions matrix for macOS and Windows.
+- Improved dependency pinning and environment reproducibility.
+
+v0.1.5 (2025-07-15)
+-------------------
+
+- Refactored module import paths for consistency.
+- Improved test reliability and coverage reports.
+- Updated internal project metadata and classifiers.
+
+v0.1.4 (2025-07-14)
+-------------------
+
+- Added missing documentation sections for API and CLI.
+- Standardized docstring format across modules.
+- Integrated `myst-parser` for Markdown support in Sphinx.
+
+v0.1.3 (2025-07-14)
+-------------------
+
+- Fixed broken links in documentation index.
+- Improved navigation sidebar and table of contents.
+- Added badges for PyPI, CI, and documentation status.
+
+v0.1.2 (2025-07-10)
+-------------------
+
+- Introduced `pyproject.toml` support using Hatch build system.
+- Added Ruff and MyPy configuration to enforce type safety.
+- Enhanced pre-commit hooks for linting and formatting.
+
+v0.1.1 (2025-07-10)
+-------------------
+
+- Fixed path resolution in `setup.cfg` and Hatch build scripts.
+- Improved local environment setup documentation.
+- Updated version management to use automated tagging.
 
 v0.1.0 (2025-07-10)
-------------------
+-------------------
 
-Code Quality & Consistency
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- `EditorConfig <https://ghimiresunil.github.io/pyfoundry/initialization/editorconfig.html>`_ - Ensures consistent indentation, line endings, and formatting across editors and IDEs.
-- `Ruff <https://ghimiresunil.github.io/pyfoundry/initialization/ruff.html>`_ - A lightning-fast Python linter and formatter.
-- `MyPy <https://ghimiresunil.github.io/pyfoundry/initialization/mypy.html>`_ - Performs static type checking to catch type-related bugs early.
-- `pre-commit <https://ghimiresunil.github.io/pyfoundry/initialization/pre-commit.html>`_ - Automates code quality checks via Git hooks.
-
-Project Automation & Scalability
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- `Dynaconf <https://ghimiresunil.github.io/pyfoundry/setup/dynaconf.html>`_ - Flexible and layered configuration management system.
-- `Fire <https://ghimiresunil.github.io/pyfoundry/setup/fire.html>`_ - Instantly generates CLI interfaces from your Python code.
-- `Logging <https://ghimiresunil.github.io/pyfoundry/setup/logging.html>`_ - Built-in, configurable logging setup for debugging and observability.
-- `Pytest <https://ghimiresunil.github.io/pyfoundry/setup/pytest.html>`_ - A mature and powerful testing framework.
-- `Coverage <https://ghimiresunil.github.io/PyFoundry/setup/coverage.html>`_ - Tracks code coverage during test runs.
-- `pytest-cov <https://ghimiresunil.github.io/pyfoundry/setup/pytest-cov.html>`_ - Integrates coverage directly with pytest.
-- `Tox <https://ghimiresunil.github.io/pyfoundry/setup/tox.html>`_ - Automates testing across different Python environments and dependency sets.
+- Initial public release of **PyFoundry**.
+- Core project template structure established.
+- Integrated linting, testing, and configuration best practices.
