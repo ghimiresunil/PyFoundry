@@ -1,6 +1,6 @@
-====================
+==========================
 Linter and Formatter: Ruff
-====================
+==========================
 
 .. meta::
     :description: Tools to enforce the uniformity in coding following the best practices

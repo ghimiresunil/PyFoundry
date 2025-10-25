@@ -34,6 +34,7 @@ docs:  ## generate Sphinx HTML documentation, including API docs
 	rm -f docs/pyfoundry.cookiecutter.rst
 	rm -f docs/pyfoundry.temperature.rst
 	rm -f docs/pyfoundry.rst
+	rm -f docs/modules.rst
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
