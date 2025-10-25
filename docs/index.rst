@@ -18,5 +18,7 @@ PyFoundry documentation
    :maxdepth: 2
    :caption: Miscellaneous
 
-   miscellaneous
+   authors
+   contributing
+   changelog
    troubleshooting
