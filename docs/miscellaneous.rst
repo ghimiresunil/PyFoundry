@@ -1,8 +1,8 @@
-Miscellaneous
-=============
+Authors
+=======
 
 .. toctree::
    :maxdepth: 2
-   :caption: Miscellaneous
+   :caption: miscellaneous
 
    authors
