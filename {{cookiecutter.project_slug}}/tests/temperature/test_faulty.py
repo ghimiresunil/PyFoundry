@@ -1,7 +1,7 @@
 import pytest
 
-import pyfoundry
-from pyfoundry.temperature import FaultyTemperatureConverter as Converter
+import src
+from src.temperature import FaultyTemperatureConverter as Converter
 
 
 class TestFaultyTemperatureConverter:
@@ -18,7 +18,7 @@ class TestFaultyTemperatureConverter:
 
     @staticmethod
     def test_k_related_conversion():
-        pyfoundry.ENV = "prod"
+        src.ENV = "prod"
         expected = 273.15 + 2.5
         assert Converter.convert(0, "C", "K") == pytest.approx(expected)
 

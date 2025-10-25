@@ -23,7 +23,15 @@ project = pkg_meta["name"]
 copyright = "2025, Sunil Ghimire"
 author = pkg_meta["authors"][0]["name"]
 
-version = pkg_meta["version"]
+pkg_meta_dynamic = pkg_meta.get("version")
+
+if isinstance(pkg_meta_dynamic, list):
+    from pyfoundry import __version__
+
+    version = __version__
+else:
+    version = pkg_meta_dynamic
+
 release = version
 
 

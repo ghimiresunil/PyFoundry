@@ -87,7 +87,7 @@ Quick Start
 
    .. code-block:: console
 
-      $ pip install -u pyfoundry
+      $ pip install git+https://<personal_access_token>@github.com/ghimiresunil/PyFoundry.git@v0.0.7
 
 2. Initialize your project:
 
