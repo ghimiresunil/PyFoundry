@@ -58,8 +58,8 @@ pyfoundry = "pyfoundry.cookiecutter.packaging:main"
 Homepage = "https://ghimiresunil.github.io/PyFoundry/"
 Repository = "https://github.com/ghimiresunil/pyfoundry"
 Documentation = "https://ghimiresunil.github.io/PyFoundry/"
-Changelog = "https://github.com/ghimiresunil/pyfoundry/CHANGELOG.rst"
-Releases = "https://github.com/ghimiresunil/pyfoundry/releases"
+Changelog = "https://ghimiresunil.github.io/PyFoundry/changelog.html"
+Releases = "https://github.com/ghimiresunil/PyFoundry/tags"
 
 [tool.pytest.ini_options]
 minversion = "6.0"
