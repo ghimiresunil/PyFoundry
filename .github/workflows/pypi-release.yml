@@ -20,7 +20,7 @@ jobs:
       - name: 🥚 Install Hatch
         uses: pypa/hatch@install
 
-      - name: 📦 Build FusePyStarter
+      - name: 📦 Build PyFoundry
         run: hatch build --clean
 
       - name: 📤 Upload to PyPI
