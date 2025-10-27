@@ -10,7 +10,7 @@ packages = ["pyfoundry"]
 
 [project]
 name = "PyFoundry"
-version = "0.1.0"
+version = "0.1.2"
 description = "A modern Python project forge with pre-configured tooling and CI/CD."
 authors = [{ name = "Sunil Ghimire", email = "info@sunilghimire.com.np" }]
 readme = "README.rst"
