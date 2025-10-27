@@ -93,3 +93,25 @@ exclude_lines = [
 ]
 fail_under = 60
 ignore_errors = true
+
+
+[tool.ruff]
+show-fixes = true
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "D"]
+ignore = ["D212"]
+extend-select = []
+pydocstyle.convention = "google"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = true
+line-ending = "lf"
+
+[tool.mypy]
+python_version = "3.9"
+disallow_untyped_defs = true
+ignore_missing_imports = true
